@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
-</head>
-<body>
-    Rinterio
-</body>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisy UI Component -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="tailwind.config.js" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/3f264516c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+      }
+    </style>
+  </head>
+  <body class="font-manrope w-full lg:max-w-full">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-t from-white to-orange-100 pb-16">
+      <nav class="flex justify-between items-center pt-4 px-5 lg:pl-32 lg:pr-32">
+        <div class="items-center justify-center font-extrabold gap-2 flex">
+          <i
+            class="fa-solid fa-arrow-right bg-[#ABEF5F] inline-flex -rotate-45 w-7 h-7 rounded-full justify-center items-center text-black"
+          ></i>
+          <p class="text-3xl">Rinterio</p>
+        </div>
+        <ul class="hidden lg:flex justify-between gap-9 text-xl">
+          <li><a class="font-extrabold" href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="hidden md:flex gap-4 justify-center items-center">
+          <i class="fa-solid fa-magnifying-glass w-7 h-7 bg-white justify-center inline-flex items-center rounded-full"></i>
+        <i class="fa-solid fa-cart-shopping w-7 h-7 bg-white justify-center inline-flex items-center rounded-full"></i>
+        <div class="bg-[#ABEF5F] px-5 py-2 rounded-3xl">Book Consult <i
+          class="fa-solid fa-arrow-right bg-black text-white inline-flex -rotate-45 w-7 h-7 rounded-full justify-center items-center text-black"
+        ></i></div>
+        </div>
+        <i class="lg:hidden fa-solid fa-bars w-7 h-7 bg-white justify-center inline-flex items-center rounded-full"></i>
+      </nav>
+      <div class="grid gap-4 justify-items-center lg:px-32">
+        <img class="items-center" src="images/banner.png" alt="">
+      <h1 class="text-6xl text-center font-extrabold">A barn house of this design has a <br> striking appearance</h1>
+      <p class="text-xl text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+      <button class="bg-[#a5d47070] font-bold py-3 px-6 rounded-3xl lg:w-52 lg:h-14">View Details <i
+        class="fa-solid fa-arrow-right bg-[#abee5f] inline-flex -rotate-45 w-7 h-7 rounded-full justify-center items-center text-black"
+      ></i></button>
+      
+      </div>
+      
+    </header>
+    <main>
+      <!-- We design Section -->
+      <section>
+        
+      </section>
+      <!-- Icon Section -->
+      <section></section>
+      <!-- Our Latest Portfolio Section -->
+      <section></section>
+      <!-- Let's Discuss Section -->
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
